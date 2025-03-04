@@ -1,0 +1,717 @@
+@media only screen and (max-width: 1730px) {
+    td {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    td h1 {
+        font-size: 16px !important;
+    }
+
+    th div p {
+        font-size: 16px !important;
+    }
+
+    td:hover .more {
+        width: 130px !important;
+        height: 130px !important;
+        top: -18% !important;
+        left: -20% !important;
+    }
+}
+
+@media only screen and (max-width: 1424px) {
+    td {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    td h1 {
+        font-size: 14px !important;
+    }
+
+    th div p {
+        font-size: 14px !important;
+    }
+
+    td:hover .more {
+        width: 110px !important;
+        height: 110px !important;
+        top: -22% !important;
+        left: -21% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .timetable-web-ui {
+        display: none !important;
+    }
+
+    .timetable-mobile-ui {
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .lesson-info h1 {
+        font-size: 19px !important;
+    }
+
+    .day-time-div h1 {
+        font-size: 18px !important;
+    }
+
+    .day-time-div p {
+        font-size: 16px !important;
+    }
+}
+
+table {
+    padding: 5px;
+    margin: 0;
+    /* box-shadow: 0 0 8px 1px rgb(114, 114, 114); */
+    border-radius: 8px;
+    border: solid 1px rgb(186, 186, 186);
+    background-color: rgb(251, 251, 251);
+}
+
+thead {
+    padding: 0;
+    margin: 0;
+    /* border: solid 1px black; */
+}
+
+tbody {
+    padding: 0;
+    margin: 0;
+}
+
+tr {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    /* border: solid 1px black; */
+}
+
+th {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    /* border: solid 1px black; */
+}
+
+th div {
+    padding: 0;
+    margin: 0;
+}
+
+th div p {
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    position: relative;
+    padding: 4px;
+    margin: 0;
+    border: solid 1px rgb(115, 115, 115);
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: default;
+}
+
+td h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+td h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.more {
+    display: none;
+}
+
+.info {
+    display: none;
+}
+
+td:hover .more {
+    padding: 4px;
+    margin: 0;
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    z-index: 10;
+    top: -12%;
+    left: -13%;
+    border: solid 1px rgb(95, 95, 95);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 0 0 8px 1px rgb(114, 114, 114);
+}
+
+td:hover .info {
+    display: flex;
+    padding: 10px 0 0 0;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.info p {
+    padding: 0;
+    margin: 0;
+}
+
+.border-left {
+    border-left: solid 1px rgb(186, 186, 186);
+}
+
+.border-left-right {
+    border-left: solid 1px rgb(186, 186, 186);
+    border-right: solid 1px rgb(186, 186, 186);
+}
+
+.border-top {
+    border-top: solid 1px rgb(186, 186, 186);
+}
+
+.border-top-bottom {
+    border-top: solid 1px rgb(186, 186, 186);
+    border-bottom: solid 1px rgb(186, 186, 186);
+}
+
+caption {
+    padding: 5px;
+    margin: 0;
+}
+
+caption p {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.music {
+    background-color: rgb(171, 171, 255) !important;
+}
+
+.english {
+    background-color: rgb(255, 192, 128) !important;
+}
+
+.lithuanian {
+    background-color: rgb(208, 255, 208) !important;
+}
+
+.geography {
+    background-color: rgb(163, 255, 128) !important;
+}
+
+.biology {
+    background-color: rgb(163, 255, 128) !important;
+}
+
+.math {
+    background-color: rgb(255, 255, 208) !important;
+}
+
+.chemistry {
+    background-color: rgb(255, 192, 171) !important;
+}
+
+.physical-education {
+    background-color: rgb(255, 230, 230) !important;
+}
+
+.russian {
+    background-color: rgb(255, 255, 230) !important;
+}
+
+.computer-systems {
+    background-color: rgb(255, 179, 179) !important;
+}
+
+.physics {
+    background-color: rgb(192, 157, 128) !important;
+}
+
+.art {
+    background-color: rgb(192, 128, 192) !important;
+}
+
+.javascript {
+    background-color: rgb(224, 206, 128) !important;
+}
+
+.history {
+    background-color: rgb(208, 208, 255) !important;
+}
+
+.ethics {
+    background-color: rgb(255, 255, 230) !important;
+}
+
+.it {
+    background-color: rgb(128, 163, 255) !important;
+}
+
+.basics-of-citizenship {
+    background-color: rgb(208, 208, 255) !important;
+}
+
+.german {
+    background-color: rgb(192, 224, 128) !important;
+}
+
+
+
+
+.mobile-music {
+    /* background-color: rgb(171, 171, 255) !important; */
+    background: linear-gradient(90deg, rgba(171, 171, 255, 0.5), transparent) !important;
+}
+
+.mobile-english {
+    /* background-color: rgb(255, 192, 128) !important; */
+    background: linear-gradient(90deg, rgba(255, 192, 128, 0.5), transparent) !important;
+}
+
+.mobile-lithuanian {
+    /* background-color: rgb(208, 255, 208) !important; */
+    background: linear-gradient(90deg, rgba(208, 255, 208, 0.7), transparent) !important;
+}
+
+.mobile-geography {
+    /* background-color: rgb(163, 255, 128) !important; */
+    background: linear-gradient(90deg, rgba(163, 255, 128, 0.5), transparent) !important;
+}
+
+.mobile-biology {
+    /* background-color: rgb(163, 255, 128) !important; */
+    background: linear-gradient(90deg, rgba(163, 255, 128, 0.5), transparent) !important;
+}
+
+.mobile-math {
+    /* background-color: rgb(255, 255, 208) !important; */
+    background: linear-gradient(90deg, rgba(255, 255, 208, 0.7), transparent) !important;
+}
+
+.mobile-chemistry {
+    /* background-color: rgb(255, 192, 171) !important; */
+    background: linear-gradient(90deg, rgba(255, 192, 171, 0.5), transparent) !important;
+}
+
+.mobile-physical-education {
+    /* background-color: rgb(255, 230, 230) !important; */
+    background: linear-gradient(90deg, rgba(255, 230, 230, 0.5), transparent) !important;
+}
+
+.mobile-russian {
+    /* background-color: rgb(255, 255, 230) !important; */
+    background: linear-gradient(90deg, rgba(255, 255, 230, 0.5), transparent) !important;
+}
+
+.mobile-computer-systems {
+    /* background-color: rgb(255, 179, 179) !important; */
+    background: linear-gradient(90deg, rgba(255, 179, 179, 0.5), transparent) !important;
+}
+
+.mobile-physics {
+    /* background-color: rgb(192, 157, 128) !important; */
+    background: linear-gradient(90deg, rgba(192, 157, 128, 0.5), transparent) !important;
+}
+
+.mobile-art {
+    /* background-color: rgb(192, 128, 192) !important; */
+    background: linear-gradient(90deg, rgba(192, 128, 192, 0.5), transparent) !important;
+}
+
+.mobile-javascript {
+    /* background-color: rgb(224, 206, 128) !important; */
+    background: linear-gradient(90deg, rgba(224, 206, 128, 0.5), transparent) !important;
+}
+
+.mobile-history {
+    /* background-color: rgb(208, 208, 255) !important; */
+    background: linear-gradient(90deg, rgba(208, 208, 255, 0.5), transparent) !important;
+}
+
+.mobile-ethics {
+    /* background-color: rgb(255, 255, 230) !important; */
+    background: linear-gradient(90deg, rgba(255, 255, 230, 0.5), transparent) !important;
+}
+
+.mobile-it {
+    /* background-color: rgb(128, 163, 255) !important; */
+    background: linear-gradient(90deg, rgba(128, 163, 255, 0.5), transparent) !important;
+}
+
+.mobile-basics-of-citizenship {
+    /* background-color: rgb(208, 208, 255) !important; */
+    background: linear-gradient(90deg, rgba(208, 208, 255, 0.5), transparent) !important;
+}
+
+.mobile-german {
+    /* background-color: rgb(192, 224, 128) !important; */
+    background: linear-gradient(90deg, rgba(192, 224, 128, 0.5), transparent) !important;
+}
+
+
+
+
+
+.timetable-options {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.dropdown-notclicked {
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.dropdown-clicked {
+    transform: rotateZ(90deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.timetable-weeks-div {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.current-week-div {
+    display: flex;
+    padding: 3px;
+    margin: 0;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(186, 186, 186);
+    width: fit-content;
+    border-radius: 4px;
+}
+
+.current-week-div p {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+
+.current-week-div img {
+    padding: 0;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.weeks-dropdown-div {
+    position: absolute;
+    display: flex;
+    padding: 5px 0 5px 0;
+    margin: 0;
+    flex-direction: column;
+    /* border: solid 1px rgb(186, 186, 186); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 0 0 5px 2px rgb(215, 215, 215);
+    top: 110%;
+    align-items: center;
+    width: 100%;
+    z-index: 12;
+}
+
+.weeks-dropdown-div-invisible {
+    display: none;
+}
+
+.weeks-dropdown-div div {
+    display: flex;
+    padding: 2px 5px 2px 5px;
+    margin: 0;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.weeks-dropdown-div div:hover {
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+}
+
+.timetable-groups-div {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.current-group-div {
+    display: flex;
+    padding: 3px;
+    margin: 0;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(186, 186, 186);
+    width: fit-content;
+    border-radius: 4px;
+}
+
+.current-group-div p {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+
+.current-group-div img {
+    padding: 0;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.dropdown-notclicked {
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.dropdown-clicked {
+    transform: rotateZ(90deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.groups-dropdown-div {
+    position: absolute;
+    display: flex;
+    padding: 5px 0 5px 0;
+    margin: 0;
+    flex-direction: column;
+    /* border: solid 1px rgb(186, 186, 186); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 0 0 5px 2px rgb(215, 215, 215);
+    top: 110%;
+    align-items: center;
+    width: 100%;
+    z-index: 12;
+}
+
+.groups-dropdown-div-invisible {
+    display: none;
+}
+
+.groups-dropdown-div div {
+    display: flex;
+    padding: 2px 5px 2px 5px;
+    margin: 0;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.groups-dropdown-div div:hover {
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+}
+
+.add-new-group-div {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.add-new-group-div input {
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(186, 186, 186);
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add-new-group-div button {
+    padding: 2px 5px 2px 5px;
+    margin: 0;
+    background-color: rgb(51, 112, 182);
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.timetable-group-options {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.timetable-mobile-ui {
+    position: relative;
+    display: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100% !important;
+}
+
+.weekdays-column-div {
+    display: flex;
+    padding: 10px 0 0 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100% !important;
+    gap: 20px;
+}
+
+.weekdays-column-div h1 {
+    padding: 0 0 0 10px;
+    margin: 0;
+    font-size: 24px;
+}
+
+.weekday-div {
+    display: flex;
+    padding: 2px;
+    margin: 0;
+    flex-direction: column;
+    position: relative;
+    width: 100% !important;
+    border: solid 1px rgb(186, 186, 186);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weekday-dropdown-clickable {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.weekday-dropdown-clickable img {
+    padding: 0;
+    margin: 0;
+    width: 22px;
+    height: 22px;
+}
+
+.weekday-dropdown-div {
+    position: relative;
+    width: 100% !important;
+    display: flex;
+    padding: 3px;
+    margin: 0;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mobile-lesson-div {
+    display: flex;
+    padding: 2px;
+    margin: 0;
+    flex-direction: row;
+    gap: 10px;
+    border-top: solid 1px rgb(240, 240, 240);
+}
+
+.day-time-div {
+    display: flex;
+    padding: 2px;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: solid 1px rgb(186, 186, 186);
+    border-radius: 5px;
+    width: 120px;
+}
+
+.day-time-div h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+.day-time-div p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.lesson-info {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.lesson-info h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.lesson-info p {
+    padding: 0;
+    margin: 0;
+}
+
+.weekday-dropdown-div-invisible {
+    display: none;
+}

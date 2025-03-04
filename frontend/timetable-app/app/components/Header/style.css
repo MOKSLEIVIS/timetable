@@ -1,0 +1,175 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    background-color: rgb(51, 112, 182);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+}
+
+.logo img {
+    padding: 0;
+    margin: 0;
+    width: 120px;
+}
+
+.logo a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav ul li a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.login {
+    padding: 0;
+    margin: 0;
+}
+
+.login a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.login-button {
+    padding: 3px 6px 3px 6px;
+    margin: 0;
+    background-color: rgb(61, 129, 207);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.user-topbar-div {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.user-topbar-card {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.user-topbar-card img {
+    padding: 0;
+    margin: 0;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 50%;
+}
+
+.user-topbar-card p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-div-invisible {
+    display: none;
+}
+
+.dropdown-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 0;
+    top: 100%;
+    /* background-color: rgb(252, 252, 252); */
+    background-color: rgb(51, 112, 182);
+    /* border: solid 1px rgb(186, 186, 186); */
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    align-items: center;
+    gap: 2px;
+    z-index: 999;
+}
+
+.logout-div {
+    padding: 0;
+    margin: 0;
+}
+
+.logout-div button {
+    padding: 5px 4px 2px 4px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    border-top: solid 1px rgb(186, 186, 186);
+}
+
+.dashboard-div {
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard-div a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.dashboard-div button {
+    padding: 2px 4px 2px 4px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+}
