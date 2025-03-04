@@ -1,0 +1,16 @@
+{
+    "database": {
+        "user": "postgres",
+        "host": "localhost",
+        "database": "kitm",
+        "password": "",
+        "port": 5432,
+        "max": 50,
+        "connectionTimeoutMillis": 20000,
+        "idleTimeoutMillis": 45000,
+        "allowExitOnIdle": true
+    },
+    "api": {
+        "port": 3002
+    }
+}
